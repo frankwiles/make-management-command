@@ -1,9 +1,7 @@
 # make-management-command
 
-[![PyPI](https://img.shields.io/pypi/v/make-management-command.svg)](https://pypi.org/project/make-management-command/)
-[![Changelog](https://img.shields.io/github/v/release/frankwiles/make-management-command?include_prereleases&label=changelog)](https://github.com/frankwiles/make-management-command/releases)
 [![Tests](https://github.com/frankwiles/make-management-command/actions/workflows/test.yml/badge.svg)](https://github.com/frankwiles/make-management-command/actions/workflows/test.yml)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/frankwiles/make-management-command/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-bsd-3.svg)](https://github.com/frankwiles/make-management-command/blob/master/LICENSE)
 
 Create the proper paths and a base django-click command
 
