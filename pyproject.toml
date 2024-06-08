@@ -1,0 +1,22 @@
+[project]
+name = "make-management-command"
+version = "0.1"
+description = "Create the proper paths and a base django-click command"
+readme = "README.md"
+authors = [{ name = "Frank Wiles" }]
+license = { text = "BSD-3-Clause" }
+requires-python = ">=3.11"
+classifiers = ["License :: OSI Approved :: BSD 3-Clause"]
+dependencies = ["click==8.1.7"]
+
+[project.urls]
+Homepage = "https://github.com/frankwiles/make-management-command"
+Changelog = "https://github.com/frankwiles/make-management-command/releases"
+Issues = "https://github.com/frankwiles/make-management-command/issues"
+CI = "https://github.com/frankwiles/make-management-command/actions"
+
+[project.entry-points.console_scripts]
+make-management-command = "make_management_command.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest==8.2.2"]
