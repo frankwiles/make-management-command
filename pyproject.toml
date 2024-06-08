@@ -5,7 +5,7 @@ description = "Create the proper paths and a base django-click command"
 readme = "README.md"
 authors = [{ name = "Frank Wiles" }]
 license = { text = "BSD-3-Clause" }
-requires-python = ">=3.11"
+requires-python = ">=3.8"
 classifiers = ["License :: OSI Approved :: BSD 3-Clause"]
 dependencies = ["click==8.1.7"]
 
