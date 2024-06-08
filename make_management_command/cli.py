@@ -50,8 +50,11 @@ def cli(names):
 
     command_path = os.path.join(cwd, "management", "commands")
 
+    click.secho()
     for name in names:
-        with open(os.path.join(command_path, f"{name}.py"), "w") as f:
+        filepath = os.path.join(command_path, f"{name}.py")
+        with open(filepath, "w") as f:
+            green(f"Creating {filepath}...")
             f.write("import djclick as click\n\n")
 
             f.write("@click.command()\n")

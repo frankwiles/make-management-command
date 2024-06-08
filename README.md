@@ -39,6 +39,7 @@ Create two commands named `foo` and `bar`:
 make-management-command foo bar
 ```
 
+![Screenshot of creating two django management commands](/images/example.png)
 
 ## Development
 
