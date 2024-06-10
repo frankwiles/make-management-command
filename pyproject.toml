@@ -18,5 +18,8 @@ CI = "https://github.com/frankwiles/make-management-command/actions"
 [project.entry-points.console_scripts]
 make-management-command = "make_management_command.cli:cli"
 
+[tool.setuptools.packages.find]
+exclude = ["images*"]
+
 [project.optional-dependencies]
 test = ["pytest==8.2.2"]
